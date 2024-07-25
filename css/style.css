@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    max-width: 85vw;
+    margin: auto;
+    
+}
+
+.navbar-left {
+    font-family: var(--font1);
+    font-size: 34px;
+    font-weight: bold;
+}
+.navbar-right {
+    display: flex;
+    list-style: none;
+    font-family: var(--font1);
+    
+}
+
+.navbar-right a {
+    text-decoration: none;
+    color:black;
+    margin: 13px;
+    font-size: 25px;
+}
+
+footer {
+    background-color: antiquewhite;
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height: 5vh;
+}
+
+#home {
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    #home-info {
+    padding: 20px;
+}
+
+#skills {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#skills-section2 {
+    display: flex;
+    
+    width: 100%;
+    justify-content: space-between;padding:35px;
+}
+
+#skills-languages {
+    width: 50%;
+    height: 100%;
+}
+
+#skills-tools {
+    width: 50%;
+    height: 100%;
+}
+
+#projects {
+    background-color: silver;
+}

@@ -4,7 +4,7 @@
 }
 
 #navbar {
-    background-color: pink;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,9 +15,9 @@
 }
 
 .navbar-left {
-    font-family: var(--font1);
+    /* font-family: var(--font1); */
     font-size: 34px;
-    font-weight: bold;
+    /* font-weight: bolder; */
 }
 .navbar-right {
     display: flex;
@@ -34,7 +34,6 @@
 }
 
 footer {
-    background-color: antiquewhite;
     font-family: var(--font1);
     display: flex;
     flex-direction: column;
@@ -45,17 +44,31 @@ footer {
 
 #home {
     height: 100vh;
-    background-color: beige;
+    
     display: flex;
     align-items: center;
     justify-content: center;
 }
-    #home-info {
-    padding: 20px;
+#home-info {
+    padding: 50px;
 }
 
+#home h1 {
+    font-size:90px;
+    color:rgb(255 89 37);
+    margin-bottom: 22px;
+}
+
+#home-info h3 {
+    font-size:55px;
+    font-weight: 350;
+}    
+
+
+
+
 #skills {
-    background-color: aquamarine;
+ 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,6 +92,32 @@ footer {
     height: 100%;
 }
 
+
+
+footer img {
+    width: 25px;
+}
+
+#home img {
+    width: 700px;
+}
+
+
+/* TEMP */
+footer {
+    background-color: antiquewhite;
+}
+/* 
 #projects {
     background-color: silver;
+}
+#skills {
+    background-color: aquamarine;
+}
+#navbar {
+    background-color: pink;
+} 
+ 
+#home {
+    background-color: beige;
 }

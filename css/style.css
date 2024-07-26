@@ -33,15 +33,6 @@
     font-size: 25px;
 }
 
-footer {
-    font-family: var(--font1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
-    height: 5vh;
-}
-
 #home {
     height: 100vh;
     
@@ -94,19 +85,33 @@ footer {
 
 
 
-footer img {
-    width: 25px;
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    /* height: 5vh; */
+    padding:20px;
+    font-size:20px;
+    font-weight: 500;
 }
 
+footer img {
+    width: 40px;
+    padding:5px
+}
+.social {
+    margin-bottom:10px;
+}
 #home img {
     width: 700px;
 }
 
 
 /* TEMP */
-footer {
+/* footer {
     background-color: antiquewhite;
-}
+} */
 /* 
 #projects {
     background-color: silver;

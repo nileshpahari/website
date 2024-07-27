@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* NAVBAR */
 #navbar {
     
     display: flex;
@@ -33,6 +34,13 @@
     font-size: 25px;
 }
 
+
+
+
+
+
+
+/* HOME */
 #home {
     height: 100vh;
     
@@ -58,32 +66,56 @@
 
 
 
+/* SKILLS */
 #skills {
  
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding:34px;
 }
 
 
 #skills-section2 {
     display: flex;
-    
-    width: 100%;
-    justify-content: space-between;padding:35px;
+    justify-content: space-evenly;
+    width:100%
+    /* padding:35px; */
 }
 
 #skills-languages {
-    width: 50%;
-    height: 100%;
+    padding:75px;
+    /* margin-right:50px; */
 }
 
 #skills-tools {
-    width: 50%;
-    height: 100%;
+    padding:75px;
+}
+#skills-section2 h3 {
+    color: #21243D;
+    font-size: 50px;
+}
+.skills-details {
+    font-size: 37px;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+#skills-section1 h2{
+    font-size: 60px;
+}
+#skills-section1 p {
+    font-size: 35px;
+}
+.skills-heading {
+    display: flex;
+    justify-content: center;
 }
 
 
+
+
+/* FOOTER */
 
 footer {
     display: flex;
@@ -108,16 +140,27 @@ footer img {
 }
 
 
+/* 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: pink;
+        color: purple;
+    }
+  
+} */
+
+
 /* TEMP */
 /* footer {
     background-color: antiquewhite;
 } */
+
+#skills {
+    background-color: aliceblue;
+}
 /* 
 #projects {
     background-color: silver;
-}
-#skills {
-    background-color: aquamarine;
 }
 #navbar {
     background-color: pink;

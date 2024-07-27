@@ -74,6 +74,7 @@
     align-items: center;
     justify-content: center;
     padding:34px;
+    background-color: #EDF7FA;
 }
 
 
@@ -100,6 +101,8 @@
     font-size: 37px;
     /* display: flex; */
     /* flex-direction: column; */
+    /* text-align: center; */
+    text-align: center;
 }
 #skills-section1 h2{
     font-size: 60px;
@@ -112,6 +115,10 @@
     justify-content: center;
 }
 
+
+.skills-extra {
+    margin-top: 15px;
+}
 
 
 
@@ -139,10 +146,6 @@ footer img {
     width: 700px;
 }
 
-.skills-extra {
-    margin-top: 15px;
-}
-
 /* 
 @media (prefers-color-scheme: dark) {
     body {
@@ -158,9 +161,7 @@ footer img {
     background-color: antiquewhite;
 } */
 
-#skills {
-    background-color: aliceblue;
-}
+
 /* 
 #projects {
     background-color: silver;

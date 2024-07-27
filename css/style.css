@@ -104,7 +104,7 @@
 #skills-section1 h2{
     font-size: 60px;
 }
-#skills-section1 p {
+#skills-section1 div {
     font-size: 35px;
 }
 .skills-heading {
@@ -139,6 +139,9 @@ footer img {
     width: 700px;
 }
 
+.skills-extra {
+    margin-top: 15px;
+}
 
 /* 
 @media (prefers-color-scheme: dark) {

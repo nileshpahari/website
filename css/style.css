@@ -13,7 +13,7 @@
 
 .navbar-left {
     /* font-family: var(--font1); */
-    font-size: 34px;
+    font-size: 25px;
     /* font-weight: bolder; */
 }
 .navbar-right {
@@ -27,9 +27,18 @@
     text-decoration: none;
     color:black;
     margin: 13px;
-    font-size: 25px;
+    font-size: 18px;
 }
 
+a {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+a:hover {
+    color:purple;
+    font-weight: 600;
+}
 
 
 
@@ -49,13 +58,13 @@
 }
 
 #home h1 {
-    font-size:90px;
+    font-size:72px;
     color:rgb(255 89 37);
     margin-bottom: 22px;
 }
 
 #home-info h3 {
-    font-size:55px;
+    font-size:34px;
     font-weight: 350;
 }    
 
@@ -69,7 +78,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding:34px;
+    padding:25px;
     background-color: #EDF7FA;
 }
 
@@ -82,26 +91,27 @@
 }
 
 #skills-languages {
-    padding:75px;
+    padding:30px;
     /* margin-right:50px; */
 }
 
 #skills-tools {
-    padding:75px;
+    padding:30px;
 }
 #skills-section2 h3 {
     color: #21243D;
-    font-size: 50px;
+    font-size: 35px;
 }
 .skills-details {
-    font-size: 37px;
+    font-size: 27px;
     /* display: flex; */
     /* flex-direction: column; */
     /* text-align: center; */
     text-align: center;
 }
 #skills-section1 h2{
-    font-size: 60px;
+    font-size: 42px;
+    color: #36454F;
 }
 #skills-section1 div {
     font-size: 35px;
@@ -115,6 +125,17 @@
 .skills-extra {
     margin-top: 15px;
     font-weight: 300;
+}
+
+
+
+
+
+/* Projects */
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -170,10 +191,10 @@
     align-items: center;
 }
 .contact-title h2 {
-    font-size: 40px;
+    font-size: 42px;
     color: #a364aa;
     margin-top: 20px;
-    margin-bottom: 10px ;
+
 }
 #contact textarea {
     height: 235px;
@@ -195,20 +216,20 @@ footer {
     align-items: center;
     justify-content:space-between;
     /* height: 5vh; */
-    padding:20px;
-    font-size:20px;
+    padding:10px;
+    font-size:14px;
     font-weight: 500;
 }
 
 footer img {
-    width: 40px;
+    width: 35px;
     padding:5px
 }
 .social {
     margin-bottom:10px;
 }
 #home img {
-    width: 700px;
+    width: 540px;
 }
 
 /* 

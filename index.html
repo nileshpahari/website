@@ -16,9 +16,9 @@
         <li><a href="#home">Home</a></li>
         <!-- <li><a href="">About</a></li> -->
         <li><a href="#skills">Skills</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Github</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="https://github.com/nileshpahari" target="_blank">Github</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
@@ -27,8 +27,10 @@
       <div id="home-info">
         <h1 class="font2">Hey!</h1>
         <h3 class="font1">
-          I'm Nilesh Pahari,<br />currently doing a BTech in <br />
-          Computer Science and Engineering
+          <div>I'm Nilesh Pahari,</div>
+          <div>currently doing a BTech in</div>
+          <div>Computer Science and Engineering</div>
+          
         </h3>
       </div>
     </div>
@@ -37,12 +39,12 @@
     <div id="skills">
       <div id="skills-section1">
         <div class="skills-heading">
-          <h2 class="font4">Skills that I have</h2>
+          <h2 class="font4">Technical Skills</h2>
         </div>
-        <div class="skills-extra font1">
+        <!-- <div class="skills-extra font1">
           These I are the languages and tools/technologies that have knowledge
           about
-        </div>
+        </div> -->
       </div>
       <div id="skills-section2">
         <div id="skills-languages">
@@ -72,40 +74,80 @@
       </div>
     </div>
     <!-- </section> -->
-    <!-- <div id="projects">Currently working on coding this section</div> -->
+    
+<!--     
+    <div id="projects">
+      <div class="projects-title"><h2>My projects</h2></div>
+      <div class="projects-container">
+        <div class="projects-item">
+          <div><h3>Frontend development</h3></div>
+          <div class="projects-extra">A collection of websites made using HTML, CSS and Javascript</div>
+        </div>
+        <div class="projects-item">
+          <div><h3>Bash Scripts</h3></div>
+          <div class="projects-extra">A collection of bash scripts</div>
+        </div>
+      </div>
+    </div> -->
+
+
+
     <div id="contact">
-    <div class="contact-title">
-      <h2 class="font4">Get in touch</h2>
-      <hr>
+      <div class="contact-title">
+        <h2 class="font4">Get in touch</h2>
+        <hr />
+      </div>
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input
+          type="hidden"
+          name="access_key"
+          value="04d1e2f8-51d9-4761-98c4-330db4a2397c"
+        />
+        <div class="contact-container">
+          <div class="contact-div">
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter your name"
+              class="contact-info"
+              required
+            />
+          </div>
+          <div class="contact-div">
+            <input
+              type="email"
+              name="mail"
+              placeholder="Enter your email address"
+              class="contact-info"
+              id=""
+              required
+            />
+          </div>
+          <div class="contact-div">
+            <textarea
+              name="message"
+              class="contact-info"
+              placeholder="Enter your message"
+              id=""
+              required
+            ></textarea>
+          </div>
+          <div class="contact-div">
+            <button type="submit" id="contact-submit">Submit</button>
+          </div>
+        </div>
+      </form>
     </div>
-    <form action="https://api.web3forms.com/submit" method="POST">
-      <input type="hidden" name="access_key" value="04d1e2f8-51d9-4761-98c4-330db4a2397c">
-      <div class="contact-container">
-      <div class="contact-div">
-        <input type="text" name="name" placeholder="Enter your name" class="contact-info" required>
-      </div>
-      <div class="contact-div">
-        <input type="email" name="mail" placeholder="Enter your email address" class="contact-info" id="" required>
-      </div>  
-      <div class="contact-div">
-        <textarea name="message" class="contact-info" placeholder="Enter your message" id="" required></textarea>
-      </div>
-      <div class="contact-div">
-        <button type="submit" id="contact-submit">Submit</button>
-      </div>
-      </div>
-    </form>
-  </div>
 
     <footer class="font1">
       <div class="social">
-        <img src="img/linkedin.svg" alt="Linkedin" />
-        <img src="img/lichess.svg" alt="Lichess" /><img src="" alt="" />
+        <a href="https://www.linkedin.com/in/nileshpahari" target="_blank"><img src="img/linkedin.svg" alt="Linkedin"/></a>
+        <a href="https://lichess.org/@/Dr_Magician" target="_blank"><img src="img/lichess.svg" alt="Lichess" /><img src="" alt=""/></a>
       </div>
       <p>
         Botpsycho &copy; <span id="copyright-year"></span>. All rights reserved.
       </p>
-      </footer>
+    </footer>
     <script src="js/script.js"></script>
   </body>
 </html>

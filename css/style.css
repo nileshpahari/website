@@ -1,14 +1,13 @@
-
 /* NAVBAR */
 #navbar {
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 10vh;
     max-width: 85vw;
     margin: auto;
-    
+
 }
 
 .navbar-left {
@@ -16,16 +15,17 @@
     font-size: 25px;
     /* font-weight: bolder; */
 }
+
 .navbar-right {
     display: flex;
     list-style: none;
     font-family: var(--font1);
-    
+
 }
 
 .navbar-right a {
     text-decoration: none;
-    color:black;
+    color: black;
     margin: 13px;
     font-size: 18px;
 }
@@ -36,7 +36,7 @@ a {
 }
 
 a:hover {
-    color:purple;
+    color: purple;
     font-weight: 600;
 }
 
@@ -47,38 +47,44 @@ a:hover {
 
 /* HOME */
 #home {
-    height: 100vh;
-    
+    height: 90vh;
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 #home-info {
     padding: 50px;
+    padding-top: 0px;
 }
 
 #home h1 {
-    font-size:72px;
-    color:rgb(255 89 37);
+    font-size: 72px;
+    color: rgb(255 89 37);
     margin-bottom: 22px;
 }
 
 #home-info h3 {
-    font-size:34px;
+    font-size: 34px;
     font-weight: 350;
-}    
+}
+
+#home img {
+    width: 540px;
+}
 
 
 
 
 /* SKILLS */
 #skills {
- 
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding:25px;
+    padding: 25px;
     background-color: #EDF7FA;
 }
 
@@ -86,22 +92,24 @@ a:hover {
 #skills-section2 {
     display: flex;
     justify-content: space-evenly;
-    width:100%
-    /* padding:35px; */
+    width: 100%
+        /* padding:35px; */
 }
 
 #skills-languages {
-    padding:30px;
+    padding: 30px;
     /* margin-right:50px; */
 }
 
 #skills-tools {
-    padding:30px;
+    padding: 30px;
 }
+
 #skills-section2 h3 {
     color: #21243D;
     font-size: 35px;
 }
+
 .skills-details {
     font-size: 27px;
     /* display: flex; */
@@ -109,13 +117,16 @@ a:hover {
     /* text-align: center; */
     text-align: center;
 }
-#skills-section1 h2{
+
+#skills-section1 h2 {
     font-size: 42px;
     color: #36454F;
 }
+
 #skills-section1 div {
     font-size: 35px;
 }
+
 .skills-heading {
     display: flex;
     justify-content: center;
@@ -142,7 +153,13 @@ a:hover {
 
 
 
+
 /* Contact */
+#contact {
+    margin-top: 25px;
+    margin-bottom: 33px;
+}
+
 .contact-container {
     /* display: flex; */
     flex-direction: column;
@@ -154,18 +171,21 @@ a:hover {
     /* height: 1000px; */
     /* width: 1000px; */
 }
+
 .contact-info {
-    width: 100%;    
+    width: 100%;
     padding: 15px;
     border-radius: 12px;
     border: 1px solid pink;
     outline: 10px;
     color: rgb(62 60 60);
 }
+
 .contact-div {
     /* margin: 10px; */
     padding: 15px;
 }
+
 #contact-submit {
     border: none;
     border-radius: 6px;
@@ -185,23 +205,28 @@ a:hover {
     border-radius: 30px;
     margin-bottom: 20px;
 }
-.contact-title{
+
+.contact-title {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .contact-title h2 {
     font-size: 42px;
     color: #a364aa;
     margin-top: 20px;
 
 }
+
 #contact textarea {
     height: 235px;
 }
+
 .contact-info:focus {
     border: 2px solid #ff994f;
 }
+
 .contact-info::placeholder {
     font-family: var(--font3);
 }
@@ -214,22 +239,20 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     /* height: 5vh; */
-    padding:10px;
-    font-size:14px;
+    padding: 10px;
+    font-size: 14px;
     font-weight: 500;
 }
 
 footer img {
     width: 35px;
-    padding:5px
+    padding: 5px
 }
+
 .social {
-    margin-bottom:10px;
-}
-#home img {
-    width: 540px;
+    margin-bottom: 10px;
 }
 
 /* 

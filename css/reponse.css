@@ -1,0 +1,68 @@
+@media screen and (max-width: 1050px) {
+  #home img {
+    width: 500px;
+  }
+  #home-info h3 {
+    font-size: 28px;
+  }
+  #home-info {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  /* navbar  */
+  #navbar a {
+    display: none;
+  }
+  #navbar {
+    height: 7vh;
+  }
+  #navbar-left {
+    font-size: 23px;
+  }
+  /* home */
+  #home img {
+    width: 250px;
+    /* display: none; */
+  }
+  #home-info h1 {
+    font-size: 62px;
+  }
+  /* #home-info {
+        padding: 20px;
+    }  */
+
+  #home {
+    flex-direction: column;
+  }
+  #home-info {
+    text-align: center;
+  }
+
+  /* SKILLS */
+  #skills-section2 {
+    flex-direction: column;
+  }
+  #skills-section2 h3 {
+    font-size: 25px;
+  }
+  #skills-tools {
+    padding: 5px;
+  }
+  #skills-languages {
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  #skills-section1 h2 {
+    font-size: 35px;
+  }
+
+  /* contact */
+  .contact-title h2 {
+    font-size: 35px;
+  }
+  .contact-title hr {
+    width: 166px;
+  }
+}

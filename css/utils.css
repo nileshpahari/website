@@ -43,3 +43,7 @@
     max-width: 40vw;
     margin: auto;
 }
+
+.hidden {
+    display: none !important;
+}

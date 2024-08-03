@@ -7,21 +7,38 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/utils.css" />
-    <link rel="stylesheet" href="css/reponse.css">
+    <link rel="stylesheet" href="css/reponse.css" />
   </head>
   <body>
-    <nav id="navbar">
-      <div class="navbar-left font2">Nilesh Pahari</div>
-      <i class="fa-solid fa-circle"></i>
-      <ul class="navbar-right">
+    <div id="nav">
+      <nav id="navbar">
+        <div class="navbar-left font2">Nilesh Pahari</div>
+        <i class="fa-solid fa-circle"></i>
+        <ul class="navbar-right">
+          <li><a href="#home">Home</a></li>
+          <!-- <li><a href="">About</a></li> -->
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li>
+            <a href="https://github.com/nileshpahari" target="_blank">Github</a>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+          <li id="sidebar-icon">&#9776;</li>
+        </ul>
+
+      </nav>
+      <ul id="sidebar" class="hidden">
+        <!-- <li id="close-icon">&times;</li> -->
         <li><a href="#home">Home</a></li>
         <!-- <li><a href="">About</a></li> -->
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="https://github.com/nileshpahari" target="_blank">Github</a></li>
+        <li>
+          <a href="https://github.com/nileshpahari" target="_blank">Github</a>
+        </li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-    </nav>
+    </div>
 
     <div id="home">
       <div><img src="img/avatar.png" alt="Home image" srcset="" /></div>
@@ -31,7 +48,6 @@
           <div>I'm Nilesh Pahari,</div>
           <div>currently doing a BTech in</div>
           <div>Computer Science and Engineering</div>
-          
         </h3>
       </div>
     </div>
@@ -75,8 +91,8 @@
       </div>
     </div>
     <!-- </section> -->
-    
-<!--     
+
+    <!--     
     <div id="projects">
       <div class="projects-title"><h2>My projects</h2></div>
       <div class="projects-container">
@@ -91,15 +107,17 @@
       </div>
     </div> -->
 
-
-
     <div id="contact">
       <div class="contact-title">
         <h2 class="font4">Get in touch</h2>
         <hr />
       </div>
       <form action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="04d1e2f8-51d9-4761-98c4-330db4a2397c"/>
+        <input
+          type="hidden"
+          name="access_key"
+          value="04d1e2f8-51d9-4761-98c4-330db4a2397c"
+        />
         <div class="contact-container">
           <div class="contact-div">
             <input
@@ -138,8 +156,12 @@
 
     <footer class="font1">
       <div class="social">
-        <a href="https://www.linkedin.com/in/nileshpahari" target="_blank"><img src="img/linkedin.svg" alt="Linkedin"/></a>
-        <a href="https://lichess.org/@/Dr_Magician" target="_blank"><img src="img/lichess.svg" alt="Lichess" /><img src="" alt=""/></a>
+        <a href="https://www.linkedin.com/in/nileshpahari" target="_blank"
+          ><img src="img/linkedin.svg" alt="Linkedin"
+        /></a>
+        <a href="https://lichess.org/@/Dr_Magician" target="_blank"
+          ><img src="img/lichess.svg" alt="Lichess" /><img src="" alt=""
+        /></a>
       </div>
       <p>
         Botpsycho &copy; <span id="copyright-year"></span>. All rights reserved.

@@ -51,8 +51,12 @@ a:hover {
 
 .scrolled {
     background-color: black;
-    color: white;
+    color: white !important;
 }
+.scrolled #sidebar-icon {
+    color: white !important;
+}
+
 
 .scrolled a {
     color: white;
@@ -82,7 +86,8 @@ a:hover {
     justify-content: space-around;
     align-items: center;
     background-color: beige;
-    border-radius: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 
 }
 

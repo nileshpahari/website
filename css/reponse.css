@@ -10,6 +10,7 @@
   }
 }
 
+/* MOBILE */
 @media screen and (max-width: 1050px) {
   /* navbar  */
   #navbar a {
@@ -27,7 +28,9 @@
     /* display: none; */
   }
   #home-info h1 {
-    font-size: 62px;
+    font-size: 60px;
+    margin-bottom: 14px;
+
   }
   /* #home-info {
         padding: 20px;
@@ -38,6 +41,8 @@
   }
   #home-info {
     text-align: center;
+    margin-bottom:100px;
+
   }
 
   /* SKILLS */
@@ -45,7 +50,7 @@
     flex-direction: column;
   }
   #skills-section2 h3 {
-    font-size: 25px;
+    font-size: 26px;
   }
   #skills-tools {
     padding: 5px;
@@ -56,6 +61,9 @@
   }
   #skills-section1 h2 {
     font-size: 35px;
+  }
+  .skill {
+    font-size: 25px;
   }
 
   /* contact */

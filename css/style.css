@@ -47,6 +47,7 @@ a:hover {
     position: fixed;
     z-index: 1000;
     width: 100%;
+    transition: background-color 0.3s;
 }
 
 .scrolled {
@@ -118,8 +119,7 @@ a:hover {
     color: rgb(255 89 37);
     margin-bottom: 22px;
 }
-
-#home-info h3 {
+.typed {
     font-size: 34px;
     font-weight: 350;
 }
@@ -128,7 +128,10 @@ a:hover {
     width: 540px;
 }
 
-
+#typed1, #typed2, #typed3 {
+    display: inline ;
+    color: #013288;
+}
 
 
 /* SKILLS */

@@ -2,7 +2,7 @@
   #home img {
     width: 500px;
   }
-  #home-info h3 {
+  #home-info .typed {
     font-size: 28px;
   }
   #home-info {
@@ -11,7 +11,7 @@
 }
 
 /* MOBILE */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   /* navbar  */
 
   #navbar a {
@@ -79,7 +79,7 @@
   }
 
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 900px) {
   #sidebar-icon {
     display: none !important;
   }

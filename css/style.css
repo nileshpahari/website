@@ -35,6 +35,12 @@ a {
     font-weight: 500;
 }
 
+#sidebar a{
+    font-family: var(--font1);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
 li {
     list-style: none;
 }
@@ -87,8 +93,8 @@ a:hover {
     justify-content: space-around;
     align-items: center;
     background-color: beige;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 
 }
 
@@ -97,8 +103,9 @@ a:hover {
     color: black;
 }
 
-
-
+#sidebar {
+    transition: display 10s;
+}
 
 
 /* HOME */
@@ -130,7 +137,7 @@ a:hover {
 
 #typed1, #typed2, #typed3 {
     display: inline ;
-    color: #013288;
+    color: #4158A6;
 }
 
 

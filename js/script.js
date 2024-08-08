@@ -15,48 +15,10 @@ window.addEventListener("scroll", () => {
 const sidebarIcon = document.querySelector('#sidebar-icon');
 
 sidebarIcon.addEventListener("click", () => {
-    if (show) {
-        document.querySelector("#sidebar").classList.remove("hidden");
-        show = false;
-    }
-    else {
-        document.querySelector("#sidebar").classList.add("hidden");
-        show = true;
-    }
+    document.querySelector("#sidebar").classList.toggle("hidden");
+    show = false;
 })
 
-// TYPE
-// document.addEventListener('DOMContentLoaded', () => {
-//     const textElement1 = document.getElementById('typed1');
-//     const textElement2 = document.getElementById('typed2');
-//     const textElement3 = document.getElementById('typed3');
-//     const text1 = "I'm Nilesh Pahari,";
-//     const text2 = "currently doing a BTech in";
-//     const text3 = "Computer Science and Engineering";
-//     let index1 = 0;
-//     let index2 = 0;
-//     let index3 = 0;
-
-//     function type() {
-//         if (index1 < text1.length) {
-//             textElement1.innerHTML += text1.charAt(index1);
-//             index1++;
-//             setTimeout(type, 300); // Adjust the typing speed here
-//         }
-//         if (index2 < text2.length) {
-//             textElement2.innerHTML += text2.charAt(index2);
-//             index2++;
-//             setTimeout(type, 300); // Adjust the typing speed here
-//         }
-//         if (index3 < text3.length) {
-//             textElement3.innerHTML += text3.charAt(index3);
-//             index3++;
-//             setTimeout(type, 300); // Adjust the typing speed here
-//         }
-//     }
-
-//     type();
-// });
 
 document.addEventListener('DOMContentLoaded', () => {
     // First string

@@ -1,3 +1,6 @@
+// ALERT
+alert("Site under construction!!!\nExpected behaviour may not happen.")
+
 let show = false;
 document.getElementById("copyright-year").innerHTML = new Date().getFullYear();
 

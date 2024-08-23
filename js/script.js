@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     document.querySelector('.typed2 > .typed-cursor').style.display = 'none';
                     // Third string
                     new Typed('#typed3', {
-                        strings: ["Computer Science and Engineering"],
+                        strings: ["Information Technology"],
                         typeSpeed: 50,
                         showCursor: true,
                         onComplete: () => {

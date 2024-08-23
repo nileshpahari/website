@@ -40,15 +40,15 @@
     </div>
 
     <div id="home">
-      <div><img src="img/avatar.png" alt="Home image" srcset="" /></div>
       <div id="home-info">
-        <h1 class="font2">Hey!</h1>
+        <h1 class="font2">Hey There!</h1>
         <div class="typed">
           <div class="typed1"><span id="typed1"></span></div>
           <div class="typed2"><span id="typed2"></span></div>
           <div class="typed3"><span id="typed3"></span></div>
         </div>
       </div>
+      <div id="avatar"><img src="av2.jpeg" alt="Home image" srcset="" /></div>
     </div>
     <!-- <div id="about"></div> -->
     <!-- <section id="about"> -->
@@ -111,46 +111,46 @@
         <h2 class="font4">Get in touch</h2>
         <hr />
       </div>
-      <form action="https://api.web3forms.com/submit" method="POST">
-        <input
-          type="hidden"
-          name="access_key"
-          value="04d1e2f8-51d9-4761-98c4-330db4a2397c"
-        />
-        <div class="contact-container">
-          <div class="contact-div">
-            <input
-              type="text"
-              name="name"
-              placeholder="Enter your name"
-              class="contact-info"
-              required
-            />
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input
+            type="hidden"
+            name="access_key"
+            value="04d1e2f8-51d9-4761-98c4-330db4a2397c"
+          />
+          <div class="contact-container">
+            <div class="contact-div">
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+                class="contact-info"
+                required
+              />
+            </div>
+            <div class="contact-div">
+              <input
+                type="email"
+                name="mail"
+                placeholder="Enter your email address"
+                class="contact-info"
+                id=""
+                required
+              />
+            </div>
+            <div class="contact-div">
+              <textarea
+                name="message"
+                class="contact-info"
+                placeholder="Enter your message"
+                id=""
+                required
+              ></textarea>
+            </div>
+            <div class="contact-div">
+              <button type="submit" id="contact-submit">Submit</button>
+            </div>
           </div>
-          <div class="contact-div">
-            <input
-              type="email"
-              name="mail"
-              placeholder="Enter your email address"
-              class="contact-info"
-              id=""
-              required
-            />
-          </div>
-          <div class="contact-div">
-            <textarea
-              name="message"
-              class="contact-info"
-              placeholder="Enter your message"
-              id=""
-              required
-            ></textarea>
-          </div>
-          <div class="contact-div">
-            <button type="submit" id="contact-submit">Submit</button>
-          </div>
-        </div>
-      </form>
+        </form>
     </div>
 
     <footer class="font1">

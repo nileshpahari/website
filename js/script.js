@@ -1,19 +1,19 @@
-// ALERT
-// alert("Site under construction!!!\nMay not get expected behaviour")
-
 let show = false;
+
+
+// Copy write date 
 document.getElementById("copyright-year").innerHTML = new Date().getFullYear();
 
-const nav = document.getElementById("nav");
+// const nav = document.getElementById("nav");
 
-window.addEventListener("scroll", () => {
-    if (window.scrollY > 0) {
-        nav.classList.add("scrolled");
-    } else {
-        nav.classList.remove("scrolled");
-    }
+// window.addEventListener("scroll", () => {
+//     if (window.scrollY > 0) {
+//         nav.classList.add("scrolled");
+//     } else {
+//         nav.classList.remove("scrolled");
+//     }
 
-})
+// })
 
 const sidebarIcon = document.querySelector('#sidebar-icon');
 

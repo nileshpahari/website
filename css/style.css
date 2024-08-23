@@ -133,7 +133,7 @@ a:hover {
 
 /* HOME */
 #home {
-  height: 90vh;
+  height: 92vh;
   display: flex;
   /* position: relative; */
   align-items: center;
@@ -142,7 +142,7 @@ a:hover {
 
 #home h1 {
   /* font-size: 3.7rem; */
-  font-size: 4rem;
+  font-size: 3.7rem;
   color: #b3dcf2;
   /* color: #ccf381; */
   margin-bottom: 22px;
@@ -366,5 +366,5 @@ body {
 
 
 .sub-heading {
-  font-size: 3.35rem !important;
+  font-size: 3.2rem !important;
 }

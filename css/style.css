@@ -8,7 +8,7 @@
   height: 8vh;
   margin: auto;
   z-index: 1;
-  backdrop-filter: blur(6px); /* Adjust blur intensity as needed */
+  backdrop-filter: blur(7px); /* Adjust blur intensity as needed */
   border: 3px dashed rgb(214, 181, 186);
   
 }
@@ -128,15 +128,34 @@ a:hover {
 }
 
 #home img {
-  width: 18vw;
-  border-radius: 10%;
+  width: 19vw;
+  border-radius: 15%;
+  display: block;
 }
 
 #avatar {
-  /* position: absolute; */
-  right: 23%;
-}
+     display: inline-block;
+    padding: 5px; /* Adjust padding to fit the border width */
+    /* background: linear-gradient(45deg, #ff0099, #5e1e45, #00f5ff, #ffb830); */
+    /* background: linear-gradient(45deg, #5b5bff, #9e9eec, #3c3c9a, #00c9ff); */
+/* background: linear-gradient(45deg, #ff6b6b, #f06595, #ffcc70, #f7f5e6); */
+background: linear-gradient(45deg, #00f5ff, #bd93f9, #ff79c6, #50fa7b);
 
+    background-size: 400% 400%;
+    border: 3px solid transparent;
+    border-radius: 15%;
+    animation: shine 5s ease-in-out infinite;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /* position: absolute; */
+     background-clip: border-box; /* Ensure gradient fills the border area */
+     
+}
+@keyframes shine {
+    0% { background-position: 0% 0%; }
+    25% { background-position: 100% 0%; }
+    50% { background-position: 100% 100%; }
+    75% { background-position: 0% 100%; }
+    100% { background-position: 0% 0%; }
+}
 #typed1,
 #typed2,
 #typed3 {
@@ -185,7 +204,6 @@ a:hover {
 
 /* Contact */
 #contact {
-  margin-top: 25px;
   margin-bottom: 33px;
   padding: 20px;
 }

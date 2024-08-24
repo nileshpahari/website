@@ -3,13 +3,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 23px;
+  border-radius: 10px;
   padding: 0 1rem;
   height: 8vh;
   margin: auto;
   z-index: 1;
   backdrop-filter: blur(7px); /* Adjust blur intensity as needed */
-  border: 3px dashed rgb(214, 181, 186);
   
 }
 
@@ -51,9 +50,9 @@ li {
 
 /* NAV 2 */
 #navbar2 {
-  border-radius: 23px;
+  border-radius: 10px;
   backdrop-filter: blur(7px); /* Adjust blur intensity as needed */
-  border: 3px dashed rgb(214, 181, 186);
+  border: 3px dashed #b0b5d6;
   padding: 0 1rem;
   height: 8vh;
   display: flex;

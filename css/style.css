@@ -8,15 +8,12 @@
   height: 8vh;
   margin: auto;
   z-index: 1;
-  backdrop-filter: blur(7px); /* Adjust blur intensity as needed */
-  
+  backdrop-filter: blur(7px);
 }
 
 .navbar-left {
-  /* font-family: var(--font1); */
   font-size: 1.8rem;
   color: #b0b5d6;
-  /* font-weight: bolder; */
 }
 
 .navbar-right {
@@ -26,8 +23,6 @@
 
 .navbar-right a {
   text-decoration: none;
-  /* color: #A88CD0; */
-  /* color:  #bd93f9; */
   color: #b0b5d6;
   margin: 13px;
   font-size: 16px;
@@ -51,21 +46,18 @@ li {
 /* NAV 2 */
 #navbar2 {
   border-radius: 10px;
-  backdrop-filter: blur(7px); /* Adjust blur intensity as needed */
+  backdrop-filter: blur(7px);
   border: 3px dashed #b0b5d6;
   padding: 0 1rem;
   height: 8vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  /* gap: 18px; */
   font-family: var(--font1);
 }
 
 #navbar2 a {
   text-decoration: none;
-  /* color: #A88CD0; */
-  /* color:  #bd93f9; */
   color: #b0b5d6;
   font-size: 16px;
 }
@@ -101,15 +93,11 @@ a:hover {
   font-weight: 700;
   cursor: pointer;
 }
-/* #close-icon {
-    font-weight: 800;
-    font-size: 30px;
-} */
+
 
 #sidebar {
   position: fixed;
   top: 8vh;
-  /* right: 0; */
   display: flex;
   flex-direction: column;
   height: 50vh;
@@ -134,21 +122,17 @@ a:hover {
 #home {
   height: 92vh;
   display: flex;
-  /* position: relative; */
   align-items: center;
   justify-content: space-around;
 }
 
 #home h1 {
-  /* font-size: 3.7rem; */
   font-size: 3.7rem;
   color: #b3dcf2;
-  /* color: #ccf381; */
   margin-bottom: 22px;
 }
 .typed {
   font-size: 2rem;
-  /* font-size: 36px; */
   font-weight: 350;
 }
 
@@ -160,11 +144,9 @@ a:hover {
 
 #avatar {
      display: inline-block;
-    padding: 3px; /* Adjust padding to fit the border width */
-    /* background: linear-gradient(45deg, #ff0099, #5e1e45, #00f5ff, #ffb830); */
-    /* background: linear-gradient(45deg, #5b5bff, #9e9eec, #3c3c9a, #00c9ff); */
-/* background: linear-gradient(45deg, #ff6b6b, #f06595, #ffcc70, #f7f5e6); */
-background: linear-gradient(45deg, #00f5ff, #bd93f9, #ff79c6, #50fa7b);
+    padding: 3px;
+    background: linear-gradient(45deg, #ff0099, #5e1e45, #00f5ff, #ffb830);
+    background: linear-gradient(45deg, #00f5ff, #bd93f9, #ff79c6, #50fa7b);
 
     background-size: 400% 400%;
     border: 1px solid transparent;
@@ -205,7 +187,6 @@ background: linear-gradient(45deg, #00f5ff, #bd93f9, #ff79c6, #50fa7b);
   justify-content: space-evenly;
   width: 60%;
 
-  /* padding:35px; */
 }
 
 #skills-section1 h2 {
@@ -239,29 +220,24 @@ background: linear-gradient(45deg, #00f5ff, #bd93f9, #ff79c6, #50fa7b);
 }
 
 .contact-container {
-  /* display: flex; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
   max-width: 60vw;
   margin: auto;
-  /* align-items: center; */
-  /* height: 1000px; */
-  /* width: 1000px; */
 }
 
 .contact-info {
   width: 100%;
   padding: 15px;
   border-radius: 12px;
-  border: 1px solid transparent; /*border added so that when focus border adds it doesnt move */
+  border: 1px solid transparent;
   outline: 10px;
   color: #f0f0f5;
   background-color: #2e2e3e;
 }
 
 .contact-div {
-  /* margin: 10px; */
   padding: 15px;
 }
 
@@ -270,9 +246,6 @@ background: linear-gradient(45deg, #00f5ff, #bd93f9, #ff79c6, #50fa7b);
   border-radius: 6px;
   padding: 10px 20px;
   background: linear-gradient(270deg, #6272a4, #8be9fd);
-  /* background: linear-gradient(270deg, #ff79c6, #bd93f9); */
-  /* /* background: linear-gradient(270deg, #44475a, #bd93f9); */
-  /* background: linear-gradient(270deg, #ff994f, #fa6d86); */
   background: linear-gradient(270deg, #a0abf3, #bd93f9);
 
   color: white;
@@ -328,16 +301,15 @@ footer img {
   margin-bottom: 10px;
 }
 body {
-  content: "";
+  /* content: "";
   background-image: url("../img/sprinkle.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 100%;
+  height: 100%;*/
+  background-color: #1a2032;
   z-index: -1;
-  /* opacity: 0.8; */
-  /* background-color: rgb(0, 0, 33); */
 }
 
 #skills * {
